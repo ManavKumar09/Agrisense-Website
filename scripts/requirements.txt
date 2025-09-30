@@ -1,0 +1,32 @@
+# AgriSense Flask Backend Requirements
+# ===================================
+
+# Core Flask dependencies
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# Image processing
+Pillow==10.0.1
+opencv-python==4.8.1.78
+
+# AI/ML libraries (uncomment based on your model)
+# tensorflow==2.13.0
+# torch==2.0.1
+# torchvision==0.15.2
+# scikit-learn==1.3.0
+# numpy==1.24.3
+# pandas==2.0.3
+
+# IoT communication libraries (uncomment based on your setup)
+# pyserial==3.5          # For Arduino serial communication
+# paho-mqtt==1.6.1       # For MQTT communication
+# requests==2.31.0       # For HTTP API calls to IoT devices
+
+# Utilities
+python-dotenv==1.0.0     # For environment variables
+gunicorn==21.2.0         # Production WSGI server
+
+# Development dependencies
+pytest==7.4.2           # Testing framework
+black==23.7.0            # Code formatting
+flake8==6.0.0            # Code linting
